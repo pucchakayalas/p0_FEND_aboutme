@@ -1,0 +1,143 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-left: 1em;
+}
+
+
+/* HEADING */
+
+.header-content {
+  height: 100%;
+}
+
+header {
+  height: 25vw;
+  max-height: 150px;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.udacity-logo {
+  max-height: 100%;
+  width: 20%;
+  float: left;
+}
+
+h1 {
+  float: left;
+  padding-top: 5%;
+  width: 80%;
+  font-weight: normal;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  font-family: serif;
+  
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 465px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .header-content {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .header-content {
+    padding-top: 5px;
+  }
+}
+
+
+/* MAIN SECTIONS */
+
+.name{
+  font-size: 34px;
+  font-weight: normal;
+  text-align: center;
+  font-family: frankling gothic medium;
+  color: #D3D3D3;
+  margin:0 auto;
+  padding-bottom: 0.3em;
+}
+
+.profile{
+  background-color: #4A708B;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+.hero {
+  padding-top: 4em;
+  margin-left: 0 auto;
+  max-width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  
+}
+
+.my-picture {
+  display: block;
+  margin: 0 auto 10px;
+  width: max-width;
+  border: 2px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.img {
+  font-size: 22px;
+  text-align: center;
+  font-family: franklin gothic medium;
+  color: #F8F8FF;
+  margin:0 auto;
+  font-weight: bold;
+}
+
+.iama {
+  max-width: 100%;
+  color: #969696;
+  letter-spacing: 0.01em;
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 0.5em;
+  color: #606060;
+  font-family: cursive;
+}
+
+.my-info {
+  max-width: 100%;
+  font-size: 22px;
+  margin: 0 auto 20px;
+  padding-bottom: 1.5em;
+  font-family: franklin gothic medium;
+  color: #333333;
+}
+
+
